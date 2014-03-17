@@ -1,6 +1,6 @@
 var trakt = require('./js/frontend/providers/trakttv');
 
-var url = 'http://yts.re/api/list.json?sort=seeds&limit=50';
+var url = 'http://yts.im/api/list.json?sort=seeds&limit=50';
 
 var Yts = Backbone.Collection.extend({
     apiUrl: url,
